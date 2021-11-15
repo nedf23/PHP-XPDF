@@ -1,5 +1,5 @@
 {
-    "name": "php-xpdf/php-xpdf",
+    "name": "nedf23/php-xpdf",
     "type": "library",
     "description": "XPDF PHP, an Object Oriented library to manipulate XPDF",
     "keywords": ["xpdf", "pdf"],
@@ -24,6 +24,9 @@
         "sami/sami"           : "~1.0",
         "silex/silex"         : "~1.0",
         "phpunit/phpunit"     : "~3.7"
+    },
+    "replace": {
+        "php-xpdf/php-xpdf": "^0.2"
     },
     "autoload": {
         "psr-0": {
